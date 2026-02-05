@@ -1,0 +1,10 @@
+data = readmatrix('YOUR_FILE_NAME')'; %Loads Data Set
+figure; %Creates new figure
+imagesc(data); %Generates Image
+colorbar; %creates side bar
+
+%Formatting
+title('IR Scanner 2D Image');
+ylabel('Vertical Position (Top to Bottom)');
+xlabel('Horizontal Position');
+colormap(jet);
